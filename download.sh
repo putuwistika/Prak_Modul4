@@ -111,7 +111,7 @@ echo " "
 
 
 # Mengunduh file dengan output log dan mengarahkan pesan kesalahan ke log
-wget https://itbdsti-my.sharepoint.com/:u:/g/personal/12820001_mahasiswa_itb_ac_id/EaR5ymhGJFpLtxJ_hsUTynwBO3fROCmuaeSYWLof13sidg?e=eFRG0i\&download\=1 -O MPCN_Modul3.zip -q --show-progress
+wget https://itbdsti-my.sharepoint.com/:u:/g/personal/12820001_mahasiswa_itb_ac_id/EWKQjJxpKLxHkxlY5HrInLABTAoXpSdjOYG-TvkbQaivlg?e=if5a36\&download\=1 -O MPCN_Modul4.zip -q --show-progress
 
 
 echo "======================================================================================================================="
@@ -137,9 +137,9 @@ echo "Start Time: $start_time" >> download.log
 echo "End Time: $end_time" >> download.log
 
 # Hapus file yang tidak diperlukan
-rm MPCN_Modul3.zip README.md
-rm alternatif.sh
-mv MPCN_Modul3 MODUL_3
+rm MPCN_Modul4.zip README.md
+rm download.sh
+mv MPCN_Modul4 MODUL_4
 rm -rf __MACOSX download.log download3.sh unzip.log
 
 
