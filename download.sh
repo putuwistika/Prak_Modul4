@@ -139,8 +139,7 @@ echo "End Time: $end_time" >> download.log
 # Hapus file yang tidak diperlukan
 rm MPCN_Modul4.zip README.md
 rm download.sh
-mv MPCN_Modul4 MODUL_4
-rm -rf __MACOSX download.log download3.sh unzip.log
+rm -rf __MACOSX download.log unzip.log
 
 
 # Membersihkan layar
